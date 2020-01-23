@@ -1,5 +1,6 @@
 .multi-bg-example {
   width: 100%;
+  background-color:red;
   height: 400px;
   background-image: url(https://mdn.mozillademos.org/files/11305/firefox.png),
       url(https://mdn.mozillademos.org/files/11307/bubbles.png),
