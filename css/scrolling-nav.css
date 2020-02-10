@@ -8,7 +8,7 @@ header {
   background-color:black;
   background-image: url(../images/bannes2.png),
   url(../images/banner2.png);
-  background-size: 500px, auto;
+  background-size: 400px, auto;
   background-repeat: no-repeat,no-repeat;
   background-position: center, left;
 }
