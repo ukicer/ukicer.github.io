@@ -4,10 +4,15 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 header {
-  padding: 156px 0 100px;
-  background-color:red;
+  padding: 256px 0px 100px;
+  background-color:black;
+  background-image: url(../images/bannes2.png),
+  url(../images/banner2.png);
+  background-size: 500px, auto;
+  background-repeat: no-repeat,no-repeat;
+  background-position: center, left;
 }
 
 section {
-  padding: 150px 0;
+  padding: 50px 0;
 }
