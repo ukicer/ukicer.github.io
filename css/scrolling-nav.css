@@ -5,11 +5,10 @@
  */
 header {
   padding: 256px 0px 100px;
-  background-color:black;
   background-image: url(../images/bannes2.png),
-  url(../images/banner2.png);
-  background-size: 400px, auto;
-  background-repeat: no-repeat,no-repeat;
+  url(../images/banner9.png);
+  background-size: 500px, 400px;
+  background-repeat: no-repeat,repeat;
   background-position: center, left;
 }
 
