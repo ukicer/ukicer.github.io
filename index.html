@@ -413,6 +413,40 @@ The official publication date of the conference proceedings is when they become 
     </div>
   </section>
 
+  <section id="registration" class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2>Registration</h2>
+        <p class="lead">Test registration information. Registration not avaliable yet.</p>
+
+        <div id="eventbrite-widget-container-114266696766"></div>
+
+        <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+
+        <script type="text/javascript">
+            var exampleCallback = function() {
+                console.log('Order complete!');
+            };
+
+            window.EBWidgets.createWidget({
+                // Required
+                widgetType: 'checkout',
+                eventId: '114266696766',
+                iframeContainerId: 'eventbrite-widget-container-114266696766',
+
+                // Optional
+                iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+            });
+        </script>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
     <section id="attendees">
