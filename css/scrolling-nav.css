@@ -5,13 +5,15 @@
  */
 header {
   padding: 400px 0px 100px;
-  background-image: url(../images/text.png),
-  url(../images/back52.png);
-  background-size: 550px, 1600px;
-  background-repeat: no-repeat,repeat;
+  /* background-image: url(../images/text.png), */
+  background-image: url("https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F274885459%2F236245367015%2F1%2Foriginal.20220428-123841?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=1365%2C0%2C1366%2C683&s=0a2ead9c8dd64c3d01d145547391bf58");
+  /* url(../images/back52.png); */
+  /* background-size: 550px, 1600px; */
+  background-repeat: no-repeat, repeat;
   background-position: center, center;
 }
 
 section {
   padding: 50px 0;
 }
+
