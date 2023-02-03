@@ -1,4 +1,4 @@
-# UKICER Planning Guide
+# Organising the United Kingdom and Ireland Computing Education Research (UKICER) conference
 
 ## Overview
 
@@ -37,12 +37,16 @@ There are many different components to UKICER that will require a team of indivi
 
 The **General Chair** should form a short list or identify at least one individual for the following roles:
 
+* *Web presence lead*
+  - Responsibilities: Management of conference website as well as social media.
+
+
 * *Audio Visual and Materials lead*
   - Responsibilities: Presentation slides, chairing of sessions via remote channels (e.g. Zoom or Microsoft Teams), audio or video recording of sessions, promotional videos for social media, management of any audience response systems (e.g. Mentimeter).
   - Not all responsibilities are applicable for every conference, it will vary from year to year. The role typically suits a technical-minded research student as they are able to connect and talk with various members of the community while also supporting them to deliver high-quality presentations.
 
 
-* *Social lead*
+* *Engagement lead*
   - Responsibilities: Travel arrangement for invited speakers (e.g. Keynote speaker), travel arrangement for Programme Chair (e.g. from airport to conference location), conference dinner, social activities, social guide (e.g. interesting activities and local locations to visit), hotel recommendations, budget elements and travel information.
   - Not all responsibilities are applicable for every conference, it will vary from year to year. The role typically suits an academic member of staff or administration staff.
 
@@ -64,7 +68,7 @@ The **Programme Chair(s)** should form a short list or identify at least one ind
 
 * *Poster Chair(s)*
   - Responsibilities: managing the call for participation for posters, coordinating with the programme chair in terms of timeline for submissions, assembling a reasonable commitment to review submissions, notifying authors of accepted submissions, manage submissions and dissemination arrangements.
-  - The expectation of the roles varies with the prominence of posters at the conference. If the expectation is that posters will be published then the Poster Chair(s) in consultation with the Programme Chair(s) will want to make sure that all requirements of the publisher are being met, specifically in terms of the review and dissemination process. The Poster Chair will have to assemble a programme committee to review posters or at minimum at least form a panel that review all poster submissions, e.g. two Poster Chair(s) that review and decide the outcome for each submission. 
+  - The expectation of the roles varies with the prominence of posters at the conference. If the expectation is that posters will be published then the Poster Chair(s) in consultation with the Programme Chair(s) will want to make sure that all requirements of the publisher are being met, specifically in terms of the review and dissemination process. The Poster Chair will have to assemble a programme committee to review posters or at minimum at least form a panel that review all poster submissions, e.g. two Poster Chair(s) that review and decide the outcome for each submission.
   - The Poster Chair(s) will also want to coordinate with the registration lead as well to determine what attendees are attending what workshop as well as coordinate with the General Chair and Local Organising Committee in terms of organising the session at the conference. There may be several poster sessions scheduled as extended breaks with catering that will require coordination.
 
 
@@ -84,34 +88,84 @@ The **Programme Chair(s)** should form a short list or identify at least one ind
 
 ### Programme Committee
 
-The Programme Chair(s) will need to assemble an appropriate programme committee that can review submission from the community.
+The Programme Chair(s) are responsible for assembling an appropriate committee that can review submissions from the community.
+
+The scale of the commitment depends on the anticipated number of submissions, expertise required, the timelines and commitment involved as well as any additional requirements, such as what the publisher expects of the review process.
+
+The expectation is that PCs should plan for around a minimum of three reviews for each submission and expect at minimum of around 30 submissions for the paper track. Consequently, the PCs will need to acquire at least 90 reviews from the committee. A 30-person committee with a generous timeline would result in each member handling three reviews.
+
+It is worthwhile to consider the anticipated number of members that will have to serve on the commitment and what sort expertise you might need to ensure submissions are properly reviewed.
+
+#### Recruitment
+
+There is an established and committed Programme Committee already for the conference and PCs should be able to continue to rely on members from previous years to serve on their conference. It will not be the case that every member that has served on the programme committee previously for the conference can commit each year.
+
+For recruitment of new members, it is worthwhile to consider previously published authors that have not served on the commitment previously and ask them to participate. It is worthwhile to remind them that guidance and support is provided, in the instance where they may not have completed much reviewing previously.
+
+Another avenue for possible appropriate committee members would be to consider the programme committee for other relevant venues, such as the International Computing Education Conference and ACM Transactions on Computing Education.
 
 ### Proxy Chair and Committee
 
-### Review Process
-
 ### Budget
 
-### Technical Meeting Request Form (TMRF)
+### Review Process
+
+#### Bidding
+
+#### Review Guidance
+
+#### Allocation
+
+#### Emergency Reviewing
+
+### Dissemination of Conference Proceedings
+
+#### Publisher
+
+ACM
+
+#### Budget
+
+#### Technical Meeting Request Form (TMRF)
+
+#### International Conference Proceedings Series (ICPS)
+
+### Call for Participation
+
+
+
 
 ### History
 
 #### UKICER 2023
 
-* Swansea University
+* [Swansea University](https://www.swansea.ac.uk)
+* General Chair:
+* Programme Chair(s):
+* Conference website: [www.ukicer.com](https://www.ukicer.com)
 
 #### UKICER 2022
 
-* TU Dublin
+* [TU Dublin](https://www.tudublin.ie)
+* General Chair:
+* Programme Chair(s):[Brett Becker]() [Joseph Maguire](https://www.josephmaguire.co.uk)
+* Conference website: [www.ukicer.com/2022/](https://www.ukicer.com/2022/)
 
 #### UKICER 2021
 
-* University of Glasgow
+* [University of Glasgow](https://www.gla.ac.uk)
+* General and Programme Chairs: [Quintin Cutts]() and [Joseph Maguire](https://www.josephmaguire.co.uk)
+* Conference website: [www.ukicer.com/2021/](https://www.ukicer.com/2021/)
 
 #### UKICER 2020
 
-* University of Glasgow
+* [University of Glasgow](https://www.gla.ac.uk)
+* General and Programme Chairs: [Quintin Cutts]() and [Joseph Maguire](https://www.josephmaguire.co.uk)
+* Conference website: [www.ukicer.com/2020/](https://www.ukicer.com/2020/)
 
 #### UKICER 2019
 
-* University of Kent
+* [University of Kent](https://www.kent.ac.uk)
+* General Chair:
+* Programme Chair(s):
+* Conference website: [www.ukicer.com/2019/](https://www.ukicer.com/2019/)
