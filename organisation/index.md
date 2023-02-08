@@ -29,7 +29,19 @@ The three principles or **Rs** of the UKICER conference are:
 
 * **Rigour** The conferences aims to be the leading venue in the United Kingdom and Ireland for computing education research contributions. Consequently, such contributions should be delivered by processes that are sufficiently documented to ensure repeatability as well as reliability.
 
+### Conference experience
 
+#### Single-track
+
+The conference has a day-long single research paper track, where approximately 8 to 12 research papers are presented over 4 research paper session. The day-long, happens over 2-days, effectively from midday one day until midday the next.
+
+#### Presentation of papers
+
+Papers are presented over 30-minute slots, where the breakdown is 10 minutes for the author to present their work, 10 minutes for tables to discuss the paper, 5 minutes for questions from the tables and 5 minutes for handover.
+
+#### Space
+
+The aim for UKICER is to model the International Computing Education Research (ICER) conference approach where attendees are expected to engage with the papers and authors as part of the conference. Consequently, where possible the single research paper track should be delivered in a flat-floored room, where round tables that accommodate at least 6 delegates and no more than 8 delegates.
 
 ### Conference Execution and Management
 
