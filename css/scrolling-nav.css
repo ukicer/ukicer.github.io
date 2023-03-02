@@ -5,9 +5,10 @@
  */
 header {
   padding: 400px 0px 100px;
-  background-image: url(../images/text.png),
-  url(../images/back52.png);
-  /* background-size: 550px, 1600px; */
+  /* background-image: url(../images/text.png), */
+  background-image: 
+   url("../images/UKICER-2023.png");
+  background-size: 800px, 1600px;
   background-repeat: no-repeat, repeat;
   background-position: center, center;
 }
@@ -15,3 +16,4 @@ header {
 section {
   padding: 50px 0;
 }
+
