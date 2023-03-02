@@ -8,7 +8,7 @@ header {
   /* background-image: url(../images/text.png), */
   background-image: 
    url("../images/UKICER-2023.png");
-  /*background-size: 800px, 1600px;*/
+  background-size: 800px, 1600px;
   background-repeat: no-repeat, repeat;
   background-position: center, center;
 }
