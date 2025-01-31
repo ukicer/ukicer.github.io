@@ -1,0 +1,1061 @@
+      <!DOCTYPE html>
+      <html>
+        <head>
+            <meta charset="utf-8" />
+            <title>index</title>
+            <style>.markdown-preview:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); overflow: auto; }
+.markdown-preview:not([data-use-github-style]) > :first-child { margin-top: 0px; }
+.markdown-preview:not([data-use-github-style]) h1, .markdown-preview:not([data-use-github-style]) h2, .markdown-preview:not([data-use-github-style]) h3, .markdown-preview:not([data-use-github-style]) h4, .markdown-preview:not([data-use-github-style]) h5, .markdown-preview:not([data-use-github-style]) h6 { line-height: 1.2; margin-top: 1.5em; margin-bottom: 0.5em; color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) h1 { font-size: 2.4em; font-weight: 300; }
+.markdown-preview:not([data-use-github-style]) h2 { font-size: 1.8em; font-weight: 400; }
+.markdown-preview:not([data-use-github-style]) h3 { font-size: 1.5em; font-weight: 500; }
+.markdown-preview:not([data-use-github-style]) h4 { font-size: 1.2em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h5 { font-size: 1.1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h6 { font-size: 1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) strong { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) del { color: rgb(124, 135, 156); }
+.markdown-preview:not([data-use-github-style]) a, .markdown-preview:not([data-use-github-style]) a code { color: rgb(82, 139, 255); }
+.markdown-preview:not([data-use-github-style]) img { max-width: 100%; }
+.markdown-preview:not([data-use-github-style]) > p { margin-top: 0px; margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) > ul, .markdown-preview:not([data-use-github-style]) > ol { margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) blockquote { margin: 1.5em 0px; font-size: inherit; color: rgb(124, 135, 156); border-color: rgb(75, 83, 98); border-width: 4px; }
+.markdown-preview:not([data-use-github-style]) hr { margin: 3em 0px; border-top: 2px dashed rgb(75, 83, 98); background: none; }
+.markdown-preview:not([data-use-github-style]) table { margin: 1.5em 0px; }
+.markdown-preview:not([data-use-github-style]) th { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) th, .markdown-preview:not([data-use-github-style]) td { padding: 0.66em 1em; border: 1px solid rgb(75, 83, 98); }
+.markdown-preview:not([data-use-github-style]) code { color: rgb(255, 255, 255); background-color: rgb(58, 63, 75); }
+.markdown-preview:not([data-use-github-style]) pre.editor-colors { margin: 1.5em 0px; padding: 1em; font-size: 0.92em; border-radius: 3px; background-color: rgb(49, 54, 63); }
+.markdown-preview:not([data-use-github-style]) kbd { color: rgb(255, 255, 255); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(75, 83, 98) rgb(75, 83, 98) rgb(62, 68, 81); border-image: initial; background-color: rgb(58, 63, 75); }
+.markdown-preview[data-use-github-style] { font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; line-height: 1.6; overflow-wrap: break-word; padding: 30px; font-size: 16px; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); overflow: scroll; }
+.markdown-preview[data-use-github-style] > :first-child { margin-top: 0px !important; }
+.markdown-preview[data-use-github-style] > :last-child { margin-bottom: 0px !important; }
+.markdown-preview[data-use-github-style] a:not([href]) { color: inherit; text-decoration: none; }
+.markdown-preview[data-use-github-style] .absent { color: rgb(204, 0, 0); }
+.markdown-preview[data-use-github-style] .anchor { position: absolute; top: 0px; left: 0px; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; }
+.markdown-preview[data-use-github-style] .anchor:focus { outline: none; }
+.markdown-preview[data-use-github-style] h1, .markdown-preview[data-use-github-style] h2, .markdown-preview[data-use-github-style] h3, .markdown-preview[data-use-github-style] h4, .markdown-preview[data-use-github-style] h5, .markdown-preview[data-use-github-style] h6 { position: relative; margin-top: 1em; margin-bottom: 16px; font-weight: bold; line-height: 1.4; }
+.markdown-preview[data-use-github-style] h1 .octicon-link, .markdown-preview[data-use-github-style] h2 .octicon-link, .markdown-preview[data-use-github-style] h3 .octicon-link, .markdown-preview[data-use-github-style] h4 .octicon-link, .markdown-preview[data-use-github-style] h5 .octicon-link, .markdown-preview[data-use-github-style] h6 .octicon-link { display: none; color: rgb(0, 0, 0); vertical-align: middle; }
+.markdown-preview[data-use-github-style] h1:hover .anchor, .markdown-preview[data-use-github-style] h2:hover .anchor, .markdown-preview[data-use-github-style] h3:hover .anchor, .markdown-preview[data-use-github-style] h4:hover .anchor, .markdown-preview[data-use-github-style] h5:hover .anchor, .markdown-preview[data-use-github-style] h6:hover .anchor { padding-left: 8px; margin-left: -30px; text-decoration: none; }
+.markdown-preview[data-use-github-style] h1:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h2:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h3:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h4:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h5:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h6:hover .anchor .octicon-link { display: inline-block; }
+.markdown-preview[data-use-github-style] h1 tt, .markdown-preview[data-use-github-style] h2 tt, .markdown-preview[data-use-github-style] h3 tt, .markdown-preview[data-use-github-style] h4 tt, .markdown-preview[data-use-github-style] h5 tt, .markdown-preview[data-use-github-style] h6 tt, .markdown-preview[data-use-github-style] h1 code, .markdown-preview[data-use-github-style] h2 code, .markdown-preview[data-use-github-style] h3 code, .markdown-preview[data-use-github-style] h4 code, .markdown-preview[data-use-github-style] h5 code, .markdown-preview[data-use-github-style] h6 code { font-size: inherit; }
+.markdown-preview[data-use-github-style] h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h1 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h2 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h3 { font-size: 1.5em; line-height: 1.43; }
+.markdown-preview[data-use-github-style] h3 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h4 { font-size: 1.25em; }
+.markdown-preview[data-use-github-style] h4 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h5 { font-size: 1em; }
+.markdown-preview[data-use-github-style] h5 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] h6 { font-size: 1em; color: rgb(119, 119, 119); }
+.markdown-preview[data-use-github-style] h6 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] p, .markdown-preview[data-use-github-style] blockquote, .markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol, .markdown-preview[data-use-github-style] dl, .markdown-preview[data-use-github-style] table, .markdown-preview[data-use-github-style] pre { margin-top: 0px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] hr { height: 4px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; }
+.markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol { padding-left: 2em; }
+.markdown-preview[data-use-github-style] ul.no-list, .markdown-preview[data-use-github-style] ol.no-list { padding: 0px; list-style-type: none; }
+.markdown-preview[data-use-github-style] ul ul, .markdown-preview[data-use-github-style] ul ol, .markdown-preview[data-use-github-style] ol ol, .markdown-preview[data-use-github-style] ol ul { margin-top: 0px; margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] li > p { margin-top: 16px; }
+.markdown-preview[data-use-github-style] dl { padding: 0px; }
+.markdown-preview[data-use-github-style] dl dt { padding: 0px; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; }
+.markdown-preview[data-use-github-style] dl dd { padding: 0px 16px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] blockquote { padding: 0px 15px; color: rgb(119, 119, 119); border-left: 4px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] blockquote > :first-child { margin-top: 0px; }
+.markdown-preview[data-use-github-style] blockquote > :last-child { margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] table { display: block; width: 100%; overflow: auto; word-break: keep-all; }
+.markdown-preview[data-use-github-style] table th { font-weight: bold; }
+.markdown-preview[data-use-github-style] table th, .markdown-preview[data-use-github-style] table td { padding: 6px 13px; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] table tr { background-color: rgb(255, 255, 255); border-top: 1px solid rgb(204, 204, 204); }
+.markdown-preview[data-use-github-style] table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+.markdown-preview[data-use-github-style] img { max-width: 100%; box-sizing: border-box; }
+.markdown-preview[data-use-github-style] .emoji { max-width: none; }
+.markdown-preview[data-use-github-style] span.frame { display: block; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.frame > span { display: block; float: left; width: auto; padding: 7px; margin: 13px 0px 0px; overflow: hidden; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] span.frame span img { display: block; float: left; }
+.markdown-preview[data-use-github-style] span.frame span span { display: block; padding: 5px 0px 0px; clear: both; color: rgb(51, 51, 51); }
+.markdown-preview[data-use-github-style] span.align-center { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-center > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-center span img { margin: 0px auto; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-right { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-right > span { display: block; margin: 13px 0px 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] span.align-right span img { margin: 0px; text-align: right; }
+.markdown-preview[data-use-github-style] span.float-left { display: block; float: left; margin-right: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-left span { margin: 13px 0px 0px; }
+.markdown-preview[data-use-github-style] span.float-right { display: block; float: right; margin-left: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-right > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] code, .markdown-preview[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; background-color: rgba(0, 0, 0, 0.04); border-radius: 3px; }
+.markdown-preview[data-use-github-style] code::before, .markdown-preview[data-use-github-style] tt::before, .markdown-preview[data-use-github-style] code::after, .markdown-preview[data-use-github-style] tt::after { letter-spacing: -0.2em; content: " "; }
+.markdown-preview[data-use-github-style] code br, .markdown-preview[data-use-github-style] tt br { display: none; }
+.markdown-preview[data-use-github-style] del code { text-decoration: inherit; }
+.markdown-preview[data-use-github-style] pre > code { padding: 0px; margin: 0px; font-size: 100%; word-break: normal; white-space: pre; background: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] .highlight { margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] .highlight pre, .markdown-preview[data-use-github-style] pre { padding: 16px; overflow: auto; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border-radius: 3px; }
+.markdown-preview[data-use-github-style] .highlight pre { margin-bottom: 0px; word-break: normal; }
+.markdown-preview[data-use-github-style] pre { overflow-wrap: normal; }
+.markdown-preview[data-use-github-style] pre code, .markdown-preview[data-use-github-style] pre tt { display: inline; max-width: initial; padding: 0px; margin: 0px; overflow: initial; line-height: inherit; overflow-wrap: normal; background-color: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] pre code::before, .markdown-preview[data-use-github-style] pre tt::before, .markdown-preview[data-use-github-style] pre code::after, .markdown-preview[data-use-github-style] pre tt::after { content: normal; }
+.markdown-preview[data-use-github-style] kbd { display: inline-block; padding: 3px 5px; font-size: 11px; line-height: 10px; color: rgb(85, 85, 85); vertical-align: middle; background-color: rgb(252, 252, 252); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(187, 187, 187); border-image: initial; border-radius: 3px; box-shadow: rgb(187, 187, 187) 0px -1px 0px inset; }
+.markdown-preview[data-use-github-style] a { color: rgb(51, 122, 183); }
+.markdown-preview[data-use-github-style] code { color: inherit; }
+.markdown-preview[data-use-github-style] pre.editor-colors { padding: 0.8em 1em; margin-bottom: 1em; font-size: 0.85em; border-radius: 4px; overflow: auto; }
+.markdown-preview pre.editor-colors { user-select: auto; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors .horizontal-scrollbar { visibility: hidden; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors:hover .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors:hover .horizontal-scrollbar { visibility: visible; }
+.markdown-preview .task-list-item input[type="checkbox"] { position: absolute; margin: 0.25em 0px 0px -1.4em; }
+.markdown-preview .task-list-item { list-style-type: none; }
+.bracket-matcher .region {
+  border-bottom: 1px dotted lime;
+  position: absolute;
+}
+.line-number.bracket-matcher.bracket-matcher {
+  color: #abb2bf;
+  background-color: #3a3f4b;
+}
+
+.spell-check-misspelling .region {
+  border-bottom: 2px dotted rgba(255, 51, 51, 0.75);
+}
+.spell-check-corrections {
+  width: 25em !important;
+}
+
+pre.editor-colors {
+  background-color: #282c34;
+  color: #abb2bf;
+}
+pre.editor-colors .line.cursor-line {
+  background-color: rgba(153, 187, 255, 0.04);
+}
+pre.editor-colors .invisible {
+  color: #abb2bf;
+}
+pre.editor-colors .cursor {
+  border-left: 2px solid #528bff;
+}
+pre.editor-colors .selection .region {
+  background-color: #3e4451;
+}
+pre.editor-colors .bracket-matcher .region {
+  border-bottom: 1px solid #528bff;
+  box-sizing: border-box;
+}
+pre.editor-colors .invisible-character {
+  color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .indent-guide {
+  color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .wrap-guide {
+  background-color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .find-result .region.region.region,
+pre.editor-colors .current-result .region.region.region {
+  border-radius: 2px;
+  background-color: rgba(82, 139, 255, 0.24);
+  transition: border-color 0.4s;
+}
+pre.editor-colors .find-result .region.region.region {
+  border: 2px solid transparent;
+}
+pre.editor-colors .current-result .region.region.region {
+  border: 2px solid #528bff;
+  transition-duration: .1s;
+}
+pre.editor-colors .gutter .line-number {
+  color: #636d83;
+  -webkit-font-smoothing: antialiased;
+}
+pre.editor-colors .gutter .line-number.cursor-line {
+  color: #abb2bf;
+  background-color: #3a3f4b;
+}
+pre.editor-colors .gutter .line-number.cursor-line-no-selection {
+  background-color: transparent;
+}
+pre.editor-colors .gutter .line-number .icon-right {
+  color: #abb2bf;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed.git-line-removed::before {
+  bottom: -3px;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 25px;
+  border-bottom: 1px dotted rgba(224, 82, 82, 0.5);
+  pointer-events: none;
+}
+pre.editor-colors .gutter .line-number.folded,
+pre.editor-colors .gutter .line-number:after,
+pre.editor-colors .fold-marker:after {
+  color: #abb2bf;
+}
+.syntax--comment {
+  color: #5c6370;
+  font-style: italic;
+}
+.syntax--comment .syntax--markup.syntax--link {
+  color: #5c6370;
+}
+.syntax--entity.syntax--name.syntax--type {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--other.syntax--inherited-class {
+  color: #e5c07b;
+}
+.syntax--keyword {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--control {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--other.syntax--special-method {
+  color: #61afef;
+}
+.syntax--keyword.syntax--other.syntax--unit {
+  color: #d19a66;
+}
+.syntax--storage {
+  color: #c678dd;
+}
+.syntax--storage.syntax--type.syntax--annotation,
+.syntax--storage.syntax--type.syntax--primitive {
+  color: #c678dd;
+}
+.syntax--storage.syntax--modifier.syntax--package,
+.syntax--storage.syntax--modifier.syntax--import {
+  color: #abb2bf;
+}
+.syntax--constant {
+  color: #d19a66;
+}
+.syntax--constant.syntax--variable {
+  color: #d19a66;
+}
+.syntax--constant.syntax--character.syntax--escape {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--numeric {
+  color: #d19a66;
+}
+.syntax--constant.syntax--other.syntax--color {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--other.syntax--symbol {
+  color: #56b6c2;
+}
+.syntax--variable {
+  color: #e06c75;
+}
+.syntax--variable.syntax--interpolation {
+  color: #be5046;
+}
+.syntax--variable.syntax--parameter {
+  color: #abb2bf;
+}
+.syntax--string {
+  color: #98c379;
+}
+.syntax--string > .syntax--source,
+.syntax--string .syntax--embedded {
+  color: #abb2bf;
+}
+.syntax--string.syntax--regexp {
+  color: #56b6c2;
+}
+.syntax--string.syntax--regexp .syntax--source.syntax--ruby.syntax--embedded {
+  color: #e5c07b;
+}
+.syntax--string.syntax--other.syntax--link {
+  color: #e06c75;
+}
+.syntax--punctuation.syntax--definition.syntax--comment {
+  color: #5c6370;
+}
+.syntax--punctuation.syntax--definition.syntax--method-parameters,
+.syntax--punctuation.syntax--definition.syntax--function-parameters,
+.syntax--punctuation.syntax--definition.syntax--parameters,
+.syntax--punctuation.syntax--definition.syntax--separator,
+.syntax--punctuation.syntax--definition.syntax--seperator,
+.syntax--punctuation.syntax--definition.syntax--array {
+  color: #abb2bf;
+}
+.syntax--punctuation.syntax--definition.syntax--heading,
+.syntax--punctuation.syntax--definition.syntax--identity {
+  color: #61afef;
+}
+.syntax--punctuation.syntax--definition.syntax--bold {
+  color: #e5c07b;
+  font-weight: bold;
+}
+.syntax--punctuation.syntax--definition.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--punctuation.syntax--section.syntax--embedded {
+  color: #be5046;
+}
+.syntax--punctuation.syntax--section.syntax--method,
+.syntax--punctuation.syntax--section.syntax--class,
+.syntax--punctuation.syntax--section.syntax--inner-class {
+  color: #abb2bf;
+}
+.syntax--support.syntax--class {
+  color: #e5c07b;
+}
+.syntax--support.syntax--type {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function.syntax--any-method {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--function {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--class,
+.syntax--entity.syntax--name.syntax--type.syntax--class {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--name.syntax--section {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--tag {
+  color: #e06c75;
+}
+.syntax--entity.syntax--other.syntax--attribute-name {
+  color: #d19a66;
+}
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
+  color: #61afef;
+}
+.syntax--meta.syntax--class {
+  color: #e5c07b;
+}
+.syntax--meta.syntax--class.syntax--body {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--method-call,
+.syntax--meta.syntax--method {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--definition.syntax--variable {
+  color: #e06c75;
+}
+.syntax--meta.syntax--link {
+  color: #d19a66;
+}
+.syntax--meta.syntax--require {
+  color: #61afef;
+}
+.syntax--meta.syntax--selector {
+  color: #c678dd;
+}
+.syntax--meta.syntax--separator {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--tag {
+  color: #abb2bf;
+}
+.syntax--underline {
+  text-decoration: underline;
+}
+.syntax--none {
+  color: #abb2bf;
+}
+.syntax--invalid.syntax--deprecated {
+  color: #523d14 !important;
+  background-color: #e0c285 !important;
+}
+.syntax--invalid.syntax--illegal {
+  color: white !important;
+  background-color: #e05252 !important;
+}
+.syntax--markup.syntax--bold {
+  color: #d19a66;
+  font-weight: bold;
+}
+.syntax--markup.syntax--changed {
+  color: #c678dd;
+}
+.syntax--markup.syntax--deleted {
+  color: #e06c75;
+}
+.syntax--markup.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--markup.syntax--heading {
+  color: #e06c75;
+}
+.syntax--markup.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
+  color: #61afef;
+}
+.syntax--markup.syntax--link {
+  color: #56b6c2;
+}
+.syntax--markup.syntax--inserted {
+  color: #98c379;
+}
+.syntax--markup.syntax--quote {
+  color: #d19a66;
+}
+.syntax--markup.syntax--raw {
+  color: #98c379;
+}
+.syntax--source.syntax--cs .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--css .syntax--property-name,
+.syntax--source.syntax--css .syntax--property-value {
+  color: #828997;
+}
+.syntax--source.syntax--css .syntax--property-name.syntax--support,
+.syntax--source.syntax--css .syntax--property-value.syntax--support {
+  color: #abb2bf;
+}
+.syntax--source.syntax--elixir .syntax--source.syntax--embedded.syntax--source {
+  color: #abb2bf;
+}
+.syntax--source.syntax--elixir .syntax--constant.syntax--language,
+.syntax--source.syntax--elixir .syntax--constant.syntax--numeric,
+.syntax--source.syntax--elixir .syntax--constant.syntax--definition {
+  color: #61afef;
+}
+.syntax--source.syntax--elixir .syntax--variable.syntax--definition,
+.syntax--source.syntax--elixir .syntax--variable.syntax--anonymous {
+  color: #c678dd;
+}
+.syntax--source.syntax--elixir .syntax--parameter.syntax--variable.syntax--function {
+  color: #d19a66;
+  font-style: italic;
+}
+.syntax--source.syntax--elixir .syntax--quoted {
+  color: #98c379;
+}
+.syntax--source.syntax--elixir .syntax--keyword.syntax--special-method,
+.syntax--source.syntax--elixir .syntax--embedded.syntax--section,
+.syntax--source.syntax--elixir .syntax--embedded.syntax--source.syntax--empty {
+  color: #e06c75;
+}
+.syntax--source.syntax--elixir .syntax--readwrite.syntax--module .syntax--punctuation {
+  color: #e06c75;
+}
+.syntax--source.syntax--elixir .syntax--regexp.syntax--section,
+.syntax--source.syntax--elixir .syntax--regexp.syntax--string {
+  color: #be5046;
+}
+.syntax--source.syntax--elixir .syntax--separator,
+.syntax--source.syntax--elixir .syntax--keyword.syntax--operator {
+  color: #d19a66;
+}
+.syntax--source.syntax--elixir .syntax--variable.syntax--constant {
+  color: #e5c07b;
+}
+.syntax--source.syntax--elixir .syntax--array,
+.syntax--source.syntax--elixir .syntax--scope,
+.syntax--source.syntax--elixir .syntax--section {
+  color: #828997;
+}
+.syntax--source.syntax--gfm .syntax--markup {
+  -webkit-font-smoothing: auto;
+}
+.syntax--source.syntax--gfm .syntax--link .syntax--entity {
+  color: #61afef;
+}
+.syntax--source.syntax--ini .syntax--keyword.syntax--other.syntax--definition.syntax--ini {
+  color: #e06c75;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--modifier.syntax--import {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--type {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--keyword.syntax--operator.syntax--instanceof {
+  color: #c678dd;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair {
+  color: #e06c75;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair > .syntax--punctuation {
+  color: #abb2bf;
+}
+.syntax--source.syntax--ts .syntax--keyword.syntax--operator {
+  color: #56b6c2;
+}
+.syntax--source.syntax--flow .syntax--keyword.syntax--operator {
+  color: #56b6c2;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation.syntax--string {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation {
+  color: #98c379;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--constant.syntax--language.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--constant.syntax--language.syntax--json {
+  color: #56b6c2;
+}
+.syntax--ng.syntax--interpolation {
+  color: #e06c75;
+}
+.syntax--ng.syntax--interpolation.syntax--begin,
+.syntax--ng.syntax--interpolation.syntax--end {
+  color: #61afef;
+}
+.syntax--ng.syntax--interpolation .syntax--function {
+  color: #e06c75;
+}
+.syntax--ng.syntax--interpolation .syntax--function.syntax--begin,
+.syntax--ng.syntax--interpolation .syntax--function.syntax--end {
+  color: #61afef;
+}
+.syntax--ng.syntax--interpolation .syntax--bool {
+  color: #d19a66;
+}
+.syntax--ng.syntax--interpolation .syntax--bracket {
+  color: #abb2bf;
+}
+.syntax--ng.syntax--pipe,
+.syntax--ng.syntax--operator {
+  color: #abb2bf;
+}
+.syntax--ng.syntax--tag {
+  color: #56b6c2;
+}
+.syntax--ng.syntax--attribute-with-value .syntax--attribute-name {
+  color: #e5c07b;
+}
+.syntax--ng.syntax--attribute-with-value .syntax--string {
+  color: #c678dd;
+}
+.syntax--ng.syntax--attribute-with-value .syntax--string.syntax--begin,
+.syntax--ng.syntax--attribute-with-value .syntax--string.syntax--end {
+  color: #abb2bf;
+}
+.syntax--source.syntax--php .syntax--class.syntax--bracket {
+  color: #abb2bf;
+}
+/*
+   This defines styling rules for syntax classes.
+
+   See the naming conventions for a list of syntax classes:
+   https://flight-manual.atom.io/hacking-atom/sections/syntax-naming-conventions
+
+   When styling rules conflict:
+   - The last rule overrides previous rules.
+   - The rule with most classes and pseudo-classes overrides the last rule.
+*/
+.syntax--keyword {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--type {
+  color: #56b6c2;
+}
+.syntax--keyword.syntax--function {
+  color: #e06c75;
+}
+.syntax--keyword.syntax--variable {
+  color: #e06c75;
+}
+.syntax--entity {
+  color: #abb2bf;
+}
+.syntax--entity.syntax--parameter {
+  color: #abb2bf;
+}
+.syntax--entity.syntax--support {
+  color: #e06c75;
+}
+.syntax--entity.syntax--decorator:last-child {
+  color: #61afef;
+}
+.syntax--entity.syntax--label {
+  text-decoration: underline;
+}
+.syntax--entity.syntax--function {
+  color: #61afef;
+}
+.syntax--entity.syntax--operator {
+  color: #61afef;
+}
+.syntax--entity.syntax--operator.syntax--symbolic {
+  color: #abb2bf;
+}
+.syntax--entity.syntax--type {
+  color: #56b6c2;
+}
+.syntax--entity.syntax--tag {
+  color: #e06c75;
+}
+.syntax--entity.syntax--attribute {
+  color: #d19a66;
+}
+.syntax--punctuation {
+  color: #abb2bf;
+}
+.syntax--punctuation.syntax--accessor {
+  color: #abb2bf;
+}
+.syntax--punctuation.syntax--accessor.syntax--member,
+.syntax--punctuation.syntax--accessor.syntax--scope {
+  color: #c678dd;
+}
+.syntax--punctuation.syntax--embedded {
+  color: #c678dd;
+}
+.syntax--string {
+  color: #98c379;
+}
+.syntax--string.syntax--immutable {
+  color: #98c379;
+}
+.syntax--string.syntax--part {
+  color: #56b6c2;
+}
+.syntax--string.syntax--interpolation {
+  color: #c678dd;
+}
+.syntax--string.syntax--regexp {
+  color: #98c379;
+}
+.syntax--string.syntax--regexp.syntax--language {
+  color: #c678dd;
+}
+.syntax--string.syntax--regexp.syntax--variable {
+  color: #61afef;
+}
+.syntax--string.syntax--regexp.syntax--punctuation {
+  color: #c678dd;
+}
+.syntax--constant {
+  color: #d19a66;
+}
+.syntax--constant.syntax--character {
+  color: #98c379;
+}
+.syntax--constant.syntax--character.syntax--escape {
+  color: #98c379;
+}
+.syntax--constant.syntax--character.syntax--code {
+  color: #56b6c2;
+}
+.syntax--text {
+  color: #abb2bf;
+}
+.syntax--markup.syntax--heading {
+  color: #e06c75;
+}
+.syntax--markup.syntax--list.syntax--punctuation {
+  color: #e06c75;
+}
+.syntax--markup.syntax--quote {
+  color: #5c6370;
+  font-style: italic;
+}
+.syntax--markup.syntax--bold {
+  color: #d19a66;
+  font-weight: bold;
+}
+.syntax--markup.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--markup.syntax--underline {
+  color: #56b6c2;
+  text-decoration: underline;
+}
+.syntax--markup.syntax--strike {
+  color: #e06c75;
+}
+.syntax--markup.syntax--raw {
+  color: #98c379;
+}
+.syntax--markup.syntax--link {
+  color: #56b6c2;
+}
+.syntax--markup.syntax--alt {
+  color: #61afef;
+}
+.syntax--markup.syntax--inserted {
+  color: #98c379;
+}
+.syntax--markup.syntax--inserted .syntax--punctuation {
+  color: #98c379;
+}
+.syntax--markup.syntax--highlighted {
+  color: #98c379;
+}
+.syntax--markup.syntax--highlighted .syntax--punctuation {
+  color: #98c379;
+}
+.syntax--markup.syntax--deleted {
+  color: #e06c75;
+}
+.syntax--markup.syntax--deleted .syntax--punctuation {
+  color: #e06c75;
+}
+.syntax--markup.syntax--changed {
+  color: #c678dd;
+}
+.syntax--markup.syntax--changed .syntax--punctuation {
+  color: #c678dd;
+}
+.syntax--markup.syntax--commented {
+  color: #5c6370;
+}
+.syntax--markup.syntax--commented .syntax--punctuation {
+  color: #5c6370;
+}
+.syntax--comment {
+  color: #5c6370;
+  font-style: italic;
+}
+.syntax--comment.syntax--caption {
+  color: #6a7181;
+  font-weight: bold;
+}
+.syntax--comment.syntax--term {
+  color: #707989;
+}
+.syntax--comment.syntax--punctuation {
+  color: #5c6370;
+  font-weight: normal;
+}
+.syntax--invalid:not(.syntax--punctuation).syntax--illegal {
+  color: white !important;
+  background-color: #e05252 !important;
+}
+.syntax--invalid:not(.syntax--punctuation).syntax--deprecated {
+  color: #523d14 !important;
+  background-color: #e0c285 !important;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--function {
+  color: #828997;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--function.syntax--support {
+  color: #56b6c2;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--selector {
+  color: #d19a66;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--selector.syntax--tag {
+  color: #e06c75;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--selector.syntax--id {
+  color: #61afef;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--property {
+  color: #828997;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--property.syntax--support {
+  color: #abb2bf;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--variable {
+  color: #e06c75;
+}
+.syntax--source.syntax--css .syntax--constant {
+  color: #828997;
+}
+.syntax--source.syntax--css .syntax--constant.syntax--support {
+  color: #abb2bf;
+}
+.syntax--source.syntax--css .syntax--constant.syntax--numeric {
+  color: #d19a66;
+}
+.syntax--source.syntax--css .syntax--constant.syntax--media {
+  color: #d19a66;
+}
+.syntax--source.syntax--css .syntax--constant.syntax--color {
+  color: #d19a66;
+}
+.syntax--source.syntax--css .syntax--constant.syntax--offset {
+  color: #abb2bf;
+}
+.syntax--source.syntax--css .syntax--constant.syntax--attribute-value {
+  color: #98c379;
+}
+.syntax--source.syntax--css .syntax--punctuation.syntax--selector {
+  color: #d19a66;
+}
+.syntax--source.syntax--css .syntax--punctuation.syntax--selector.syntax--wildcard {
+  color: #e06c75;
+}
+.syntax--source.syntax--css .syntax--punctuation.syntax--selector.syntax--id {
+  color: #61afef;
+}
+.syntax--source.syntax--css .syntax--punctuation.syntax--selector.syntax--attribute {
+  color: #abb2bf;
+}
+</style>
+        </head>
+        <body class='markdown-preview' data-use-github-style><h1 id="organising-the-united-kingdom-and-ireland-computing-education-research-ukicer-conference">Organising the United Kingdom and Ireland Computing Education Research (UKICER) conference</h1>
+<h2 id="overview">Overview</h2>
+<p>Acting as the General or Programme Chair for the United Kingdom and Ireland Computing Education Research (UKICER) is a privileged position. Privileged in that it reflects the confidence of the wider community but also empowers individuals to share and promote valuable contributions to the community and wider world.</p>
+<p>Nevertheless, while privileged, the roles require significant commitment and the steering of various components. The following guide is designed to act as a living document that successive chairs can update and add notes. The aim is support future Chairs in shepherding and steering the conference.</p>
+<ul>
+<li><a href="#Steering-Committee">Steering Committee</a></li>
+<li><a href="#principles">Principles</a></li>
+<li><a href="#Conference-Execution-and-Management">Conference Execution and Management</a></li>
+<li><a href="#Programme-Committee">Programme Committee</a></li>
+<li><a href="#Budget">Budget</a></li>
+<li><a href="#Technical-Meeting-Request-Form-(TMRF)">Technical Meeting Request Form (TMRF)</a></li>
+<li><a href="#History">History</a></li>
+</ul>
+<h3 id="steering-committee">Steering Committee</h3>
+<p>The Steering Committee for UKICER comprises of former General and Programme Chairs of the conference as well as members of the community that have appropriate experience. The UKICER Steering Committee is tasked with generating a short-list of possible General Chairs and Programme Chairs as well as recommendations for the Special Interest Groups for Computing Science Education in the United Kingdom and Ireland to consider and approve.</p>
+<p>The General Chair(s) and Programme Chair(s) are then tasked with the management and execution of the conference. This includes management of finance and budgetary concerns.</p>
+<h3 id="principles">Principles</h3>
+<p>The three principles or <strong>Rs</strong> of the UKICER conference are:</p>
+<ul>
+<li><p><strong>Relationships</strong> A central aim of the conference is to connect researchers and educators across the United Kingdom (UK) and Ireland (as well as beyond) interested in computing science education to disseminate knowledge, connect with one another as well as potentially collaborate. The aspiration is that the conference can sustain and support a vibrant ecosystem of computing education researchers in the UK and Ireland.</p>
+</li>
+<li><p><strong>Research</strong> The conference complements the United Kingdom Computing Education Practice (CEP) conference. The focus of the conference is research. The outcomes of the process as well as the process itself.</p>
+</li>
+<li><p><strong>Rigour</strong> The conferences aims to be the leading venue in the United Kingdom and Ireland for computing education research contributions. Consequently, such contributions should be delivered by processes that are sufficiently documented to ensure repeatability as well as reliability.</p>
+</li>
+</ul>
+<h3 id="conference-experience">Conference experience</h3>
+<h4 id="single-track">Single-track</h4>
+<p>The conference has a day-long single research paper track, where approximately 8 to 12 research papers are presented over 4 research paper session. The day-long, happens over 2-days, effectively from midday one day until midday the next.</p>
+<h4 id="presentation-of-papers">Presentation of papers</h4>
+<p>Papers are presented over 30-minute slots, where the breakdown is 10 minutes for the author to present their work, 10 minutes for tables to discuss the paper, 5 minutes for questions from the tables and 5 minutes for handover.</p>
+<h4 id="space">Space</h4>
+<p>The aim for UKICER is to model the International Computing Education Research (ICER) conference approach where attendees are expected to engage with the papers and authors as part of the conference. Consequently, where possible the single research paper track should be delivered in a flat-floored room, where round tables that accommodate at least 6 delegates and no more than 8 delegates.</p>
+<h3 id="conference-execution-and-management">Conference Execution and Management</h3>
+<p>There are many different components to UKICER that will require a team of individuals to manage. The General and Programme chairs will want to work together to ensure they assign an individual that is responsible for each component to ensure a smooth running conference. Chairs can use their own discretion as to how to identify and assign roles, but general advice is for the respective chairs to shortlist for the following roles and then discuss assignments.</p>
+<p>The <strong>General Chair</strong> should form a short list or identify at least one individual for the following roles:</p>
+<ul>
+<li><em>Web presence lead</em><ul>
+<li>Responsibilities: Management of conference website as well as social media.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><em>Audio Visual and Materials lead</em><ul>
+<li>Responsibilities: Presentation slides, chairing of sessions via remote channels (e.g. Zoom or Microsoft Teams), audio or video recording of sessions, promotional videos for social media, management of any audience response systems (e.g. Mentimeter).</li>
+<li>Not all responsibilities are applicable for every conference, it will vary from year to year. The role typically suits a technical-minded research student as they are able to connect and talk with various members of the community while also supporting them to deliver high-quality presentations.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><em>Engagement lead</em><ul>
+<li>Responsibilities: Travel arrangement for invited speakers (e.g. Keynote speaker), travel arrangement for Programme Chair (e.g. from airport to conference location), conference dinner, social activities, social guide (e.g. interesting activities and local locations to visit), hotel recommendations, budget elements and travel information.</li>
+<li>Not all responsibilities are applicable for every conference, it will vary from year to year. The role typically suits an academic member of staff or administration staff.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><em>Registration lead</em><ul>
+<li>Responsibilities: Registration rates and arrangements at site, including handling processing contracts, on-site registration desks as well as managing refunds. The registration led also produces the attendee list (seeking consent from delegates), collecting information from delegates such as any specific requirements from delegates such as dietary and accessibility, collecting information regarding attendance at any workshops.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><em>Local Organising Committee</em><ul>
+<li>Responsibilities: Managing signage at event, coordinating with on-site staff (e.g. security officers, catering etc), managing desks and help-points as well as providing guidance to delegates.</li>
+<li>The expectation is that a reasonable local organising committee would comprise around six members with a leader that is easily identifiable by delegates as to ensure that chairs are not overwhelmed with requests.</li>
+</ul>
+</li>
+</ul>
+<p>The <strong>Programme Chair(s)</strong> should form a short list or identify at least one individual for the following roles:</p>
+<ul>
+<li><em>Proxy Chair</em><ul>
+<li>Responsibilities: assembling an appropriate proxy committee to review submissions that represent a Conflict of Interest (CoI) with those involved in the execution of the conference, delegation and management of CoI associated with the conference, compiling recommendations and reviews of the proxy panel, review of general CoI policy in advance of call for participation and communication of recommendations to Programme Chair(s).</li>
+<li>The Proxy Chair is a significant responsibility and requires an established member of the community that is able to assemble a proxy committee that is able to effectively review CoI submissions for those where the conflict is with those that execute the conference.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><em>Poster Chair(s)</em><ul>
+<li>Responsibilities: managing the call for participation for posters, coordinating with the programme chair in terms of timeline for submissions, assembling a reasonable commitment to review submissions, notifying authors of accepted submissions, manage submissions and dissemination arrangements.</li>
+<li>The expectation of the roles varies with the prominence of posters at the conference. If the expectation is that posters will be published then the Poster Chair(s) in consultation with the Programme Chair(s) will want to make sure that all requirements of the publisher are being met, specifically in terms of the review and dissemination process. The Poster Chair will have to assemble a programme committee to review posters or at minimum at least form a panel that review all poster submissions, e.g. two Poster Chair(s) that review and decide the outcome for each submission.</li>
+<li>The Poster Chair(s) will also want to coordinate with the registration lead as well to determine what attendees are attending what workshop as well as coordinate with the General Chair and Local Organising Committee in terms of organising the session at the conference. There may be several poster sessions scheduled as extended breaks with catering that will require coordination.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><em>Workshops Chair(s)</em><ul>
+<li>Responsibilities: managing the call for participation for workshops, coordinating with the programme chair in terms of timeline for submissions, assembling a reasonable commitment to review submissions, notifying authors of accepted workshops, manage submissions and dissemination arrangements, coordination and execution of workshops at conference, budgets and catering.</li>
+<li>The expectation of the role varies with the prominence of workshops at the conference. If the expectation is that workshops will be published then the Workshop Chair(s) in consultation with the Programme Chair(s) will want to make sure all the requirements of the publisher are being met, specifically in terms of the review and dissemination process. The Workshop Chair will have to assemble a programme committee to review proposals or at minimum at least form a panel that reviews all workshop proposals, e.g. two Workshop Chair(s) that review and decide the outcome for each workshop proposal.</li>
+<li>The Workshop Chair(s) will need to collect information from workshop organisers in terms of expected requirements and work with the Audio Visual and Materials lead to ensure they can support the organisers in successfully executing their workshop. The Workshop Chair(s) will also need to work with the General Chair and Programme Chair in terms of anticipating the popularity and space requirements for different workshops and how to support workshop delegates in participating in them.</li>
+<li>The Workshop Chair(s) will also want to follow-up with organising and delegates to determine the success of the workshop as to report any outcomes and to inform selection of workshops at future iterations of the conference.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p><em>RIPPA Chair(s)</em></p>
+</li>
+<li><p><em>Doctoral Consortium Chairs</em></p>
+</li>
+<li><p><em>Work-in-progrss Chairs</em></p>
+</li>
+<li><p><em>Dissemination Chair(s)</em></p>
+<ul>
+<li>Responsibilities: management of the peer-review system (e.g. EasyChair), management of any publication systems (e.g. TAPS), coordinating with publishers, management of intellectual property concerns, handling dissemination queries (e.g. open access queries, formatting etc).</li>
+<li>The expectation of the role varies depends on the review and publishing system that is selected. The role generally requires individuals to chase-up authors in terms of submitting final camera-ready versions of any articles, handling any incomplete intellectual property concerns (e.g. copyright forms, open access queries) as well as third-party materials. The role also requires coordination with the publisher (e.g. ACM).</li>
+</ul>
+</li>
+<li><p><em>Keynote speaker</em></p>
+</li>
+</ul>
+<p>The Proxy Chair and Committee</p>
+<h3 id="dissemination-of-conference-proceedings">Dissemination of Conference Proceedings</h3>
+<p>The dissemination of conference proceedings is the lasting legacy of the conference as it (1) motivates community to share contributions and (2) provides materials for other researchers and educators to build upon.</p>
+<p>The reputation of the repository of the conference proceedings is also crucial in authors securing funding from their organisation or others to attend the conference and present their contributions.</p>
+<h4 id="publisher">Publisher</h4>
+<p>The publisher for the United Kingdom and Ireland Computing Education Research conference is the ACM Digital Library.</p>
+<p>The General and Programme chairs need to apply for archive of conference proceedings from the ACM well in advance of the conference.</p>
+<p>Consequently, the important steps to start with as soon as possible are:</p>
+<ol>
+<li><p>Set a Budget.</p>
+</li>
+<li><p>Request and get approval for a technical meeting from the chapter.</p>
+</li>
+<li><p>Recruit the Programme Committee.</p>
+</li>
+<li><p>Apply for publication in the ACM Digital library.</p>
+</li>
+</ol>
+<h4 id="budget">Budget</h4>
+<p>The General Chair will need to set an budget early in planning for the conference. The General Chair will likely need to provide a budget to their organisation or site, but this will depend on the organisation or institution hosting the conference.</p>
+<p>The <strong>General Chair</strong> must:</p>
+<ol>
+<li><p>Complete an official <a href="https://www.acm.org/binaries/content/assets/chapters/chapter_event_tmrf_budget.xls">Budget Form</a> from the ACM. The form can be obtained from the ACM Chapter Resource portal if the link is no longer active.</p>
+</li>
+<li><p>Advise the <a href="https://uki-sigcse.acm.org/about/">United Kingdom ACM Special Interest Group in Computing Science Education</a> of intention to submit budget for consideration.</p>
+</li>
+</ol>
+<h4 id="technical-meeting-request-form-tmrf">Technical Meeting Request Form (TMRF)</h4>
+<p>The General and Programme Chair are required to complete a Technical Meeting Request Form to obtain ACM approval for the conference. The <a href="https://uki-sigcse.acm.org/about/">United Kingdom ACM Special Interest Group in Computing Science Education</a> effectively approve or sponsor the event. Consequently, the form must be considered and signed by the Chapter Chair and Treasurer for the chapter.</p>
+<p>The <strong>General and Programme Chairs</strong> must:</p>
+<ol>
+<li><p>Complete an official <a href="https://www.acm.org/binaries/content/assets/chapters/chaptereventtmrf.doc">Technical Meeting Request Form (TMRF)</a> from the ACM. The form can be obtained from the ACM Chapter Resource portal if the link is no longer active.</p>
+</li>
+<li><p>Submit the TMRF to the <a href="https://uki-sigcse.acm.org/about/">United Kingdom ACM Special Interest Group in Computing Science Education</a> along with the budget for the Chapter Chair and Chapter Treasurer to consider and sign.</p>
+</li>
+<li><p>Submit the signed TMRF along with the budget to the ACM via ACM Local Activities contact (email: <a href="mailto:local_activities@acm.org">local_activities@acm.org</a>)</p>
+</li>
+</ol>
+<h4 id="recruit-programme-committee">Recruit Programme Committee</h4>
+<p>The Programme Chair(s) are responsible for assembling an appropriate committee that can review submissions from the community.</p>
+<p>The scale of the commitment depends on the anticipated number of submissions, expertise required, the timelines and commitment involved as well as any additional requirements, such as what the publisher expects of the review process.</p>
+<p>The <a href="#Review-Process">review process</a> as well as <a href="#Recruitment">programme committee</a> will have to be detailed as part of the application to the ACM for approval and dissemination of the conference proceedings.</p>
+<h5 id="review-process">Review Process</h5>
+<p>The expectation is that PCs should plan for around a minimum of three reviews for each submission and expect at minimum of around 30 submissions for the paper track. Consequently, the PCs will need to acquire at least 90 reviews from the committee. A 30-person committee with a generous timeline would result in each member handling three reviews.</p>
+<p>It is worthwhile to consider the anticipated number of members that will have to serve on the commitment and what sort expertise you might need to ensure submissions are properly reviewed.</p>
+<h5 id="recruitment">Recruitment</h5>
+<p>There is an established and committed Programme Committee already for the conference and PCs should be able to continue to rely on members from previous years to serve on their conference. It will not be the case that every member that has served on the programme committee previously for the conference can commit each year.</p>
+<p>For recruitment of new members, it is worthwhile to consider previously published authors that have not served on the commitment previously and ask them to participate. It is worthwhile to remind them that guidance and support is provided, in the instance where they may not have completed much reviewing previously.</p>
+<p>Another avenue for possible appropriate committee members would be to consider the programme committee for other relevant venues, such as the International Computing Education Conference and ACM Transactions on Computing Education.</p>
+<p>The programme committee should manage commitment of members and any requirements in a spreadsheet. This is useful to share with subsequent conference PCs as well as keeping track of who is available and any other commitments they have that may impact the review process (e.g. holidays etc).</p>
+<h4 id="international-conference-proceedings-series-icps">International Conference Proceedings Series (ICPS)</h4>
+<p>The UKICER conference proceedings have been traditionally published via the International Conference Proceedings Series (ICPS) in the ACM Digital Library. The ACM is the publisher.</p>
+<p>The General and Conference Chairs need to seek approval from the ICPS Editor-in-Chief. The ACM provides <a href="https://www.acm.org/publications/icps-instructions-taps">extensive publication guidance</a> that chairs will want to consider.</p>
+<p>The chairs will need to complete an application process for approval from the ICPS Editor-in-Chief. Chairs are advised to leave sufficient time for the application to be considered as it may take some time.</p>
+<p>The application form involves a non-refundable fee and applicants will be expected to provide a budget, signed TMRF, information on the review process, programme committee as well as previous community engagement with the conference as well as anticipated engagement with the upcoming conference. Failing to provide the aforementioned, such as the budget and signed TMRF, will likely result in a rejected application.</p>
+<p>Prior to approval from the ICPS Editor-in-Chief the conference is not approved by the ACM and should not be promoted as an event that will have conference proceedings in the ACM Digital Library or any association with the ACM or respective ACM chapters.</p>
+<p>However, once the ICPS application has been approved the conference chairs can proceed with promoting the conference with the fact proceedings will be deposited and accessible from the ACM Digital Library.</p>
+<p>It should be noted that conference chairs can, and are encouraged to, promote the event without mention of association with any ACM Chapters and publication in the ACM Digital Library. Any promotional material can then be updated later once approval has been granted.  </p>
+<h4 id="the-acm-production-system-taps">The ACM Production System (TAPS)</h4>
+<p>TAPS</p>
+<h3 id="call-for-participation">Call for Participation</h3>
+<p>The conference chairs will want to promote the conference as soon as possible as to give the community time to plan for appropriate submissions.</p>
+<p>The recommendations below are focused on various mailing lists, but chairs should consider other channels such as posting posters to various departments and schools of Computing Science, using social media channels as well as writing individual emails to individuals that may be able to promote the conference to specific or specialised research communities.</p>
+<h4 id="first-wave">First wave</h4>
+<p>The conference chairs should publicise the call for participation on the conference website, social media channels as well as at the United Kingdom Computing Education Practice conference.</p>
+<p>The promotion can happen prior to other planning, such as seeking ACM approval and outlining specific budgets.</p>
+<h4 id="second-wave">Second wave</h4>
+<p>The second-wave of calling for participation should occur via appropriate mailing lists where the audience is focused and interested in computing education research.</p>
+<p>The call for participation should be focused on the primary artefact, research papers, and should emphasise to the audience what is sought for the venue.</p>
+<ul>
+<li><p><strong>CHCP</strong>. The <a href="https://cphc.ac.uk/">Council of Professors and Heads of Computing</a> have a number of <a href="https://cphc.ac.uk/publications/email-lists/">appropriate mailing lists</a> that can be used to promote the conference. The optimal mailing list is <a href="mailto:cphc-conf@Jiscmail.ac.uk">cphc-conf@Jiscmail.ac.uk</a> and it is worthwhile to remember that a general audience access the mailing list. It is also valuable to use other mailing lists managed by CHCP and tailor the call for participation for Heads of School, e.g. advising them to think of researchers or educators within their department interested or focused on education.</p>
+</li>
+<li><p><strong>SICSA</strong>. The Scottish Informatics &amp; Computer Science Alliance](<a href="https://www.sicsa.ac.uk">https://www.sicsa.ac.uk</a>) manage a number of <a href="">mailing lists</a> that can be used to promote the conference. The optimal mailing list is the <a href="http://lists.inf.ed.ac.uk/mailman/listinfo/sicsa-education">SICSA Education Mailing List</a> as the audience is interested in audience. It is also worthwhile remembering the focus is the Scottish education community and so tailoring the call for participation for that audience or asking a member of that community to promote the conference will likely result in better outcomes.</p>
+</li>
+<li><p><strong>UKSIGCSE</strong>. The United Kingdom ACM Special Interest Group in Computing Science Education Chapter manage a national mailing list of individuals that are interested in computing education research. It is valuable to use their <a href="mailto:uki-sigcse-members@listserv.acm.org">mailing list</a> to promote the conference. It is important to advise the Chair and/or Vice Chair in advance of submitting to the mailing list to ensure the message is approved for dissemination.</p>
+</li>
+<li><p><strong>SIGCSEIRE</strong>. The <a href="(https://sigcseire.acm.org">Ireland ACM Special Interest Group</a> in Computing Science Education Chapter manage a national <a href="SIGCSEIRE-MEMBERS@LISTSERV.ACM.ORG">mailing list</a> of individuals that are interested in computing education research. Similar to the UKSIGCSE, it is valuable to use their mailing list but make sure to advise the Chair and/or Vice Chair in advance of submitting to the mailing list to ensure the message is approved for dissemination.</p>
+</li>
+</ul>
+<h4 id="third-wave">Third wave</h4>
+<p>The conference is focused around the United Kingdom and Ireland but it is valuable to promote the conference to the wider world. The motivation is to increase awareness of the active and vibrant research community in the United Kingdom and Ireland but also to drive collaboration as well as to solicit submissions from an international audience.</p>
+<p>It is important to important to emphasise on international lists the participation options. If the conference is in-person only with no hybrid or remote option, this must be made clear as to avoid disappointment later for any accepted authors that are not able to attend.</p>
+<ul>
+<li><p><strong>SIGCSE</strong>. <a href="mailto:SIGCSE-MEMBERS@LISTSERV.ACM.ORG"></a></p>
+</li>
+<li><p><strong>CSEdResearch</strong>. <a href="mailto:csed-research@u.washington.edu"></a></p>
+</li>
+</ul>
+<h4 id="fourth-wave">Fourth wave</h4>
+<ul>
+<li><p>Other mailing lists</p>
+</li>
+<li><p>CFP on easy chair</p>
+</li>
+<li><p>CFP on other sites</p>
+</li>
+</ul>
+<h4 id="fifth-wave">Fifth wave</h4>
+<ul>
+<li>programme committee members</li>
+</ul>
+<h3 id="history">History</h3>
+<h4 id="ukicer-2023">UKICER 2023</h4>
+<ul>
+<li><a href="https://www.swansea.ac.uk">Swansea University</a></li>
+<li>General Chair: <a href="">Faron Moller</a></li>
+<li>Programme Chair(s):<a href="">Keith Quille</a> and <a href="">Sean Russell</a></li>
+<li>Conference website: <a href="https://www.ukicer.com">www.ukicer.com</a></li>
+<li>Theme: TBC</li>
+<li>Keynote: TBC</li>
+</ul>
+<h4 id="ukicer-2022">UKICER 2022</h4>
+<ul>
+<li><a href="https://www.tudublin.ie">TU Dublin</a></li>
+<li>General Chair: <a href="">Keith Quille</a></li>
+<li>Programme Chair(s):<a href="">Brett Becker</a> and <a href="https://www.josephmaguire.co.uk">Joseph Maguire</a></li>
+<li>Conference website: <a href="https://www.ukicer.com/2022/">www.ukicer.com/2022/</a></li>
+<li>Theme:</li>
+<li>Keynote: Sue Sentance</li>
+</ul>
+<h4 id="ukicer-2021">UKICER 2021</h4>
+<ul>
+<li><a href="https://www.gla.ac.uk">University of Glasgow</a></li>
+<li>General and Programme Chairs: <a href="">Quintin Cutts</a> and <a href="https://www.josephmaguire.co.uk">Joseph Maguire</a></li>
+<li>Conference website: <a href="https://www.ukicer.com/2021/">www.ukicer.com/2021/</a></li>
+<li>Theme: Learning Together</li>
+<li>Keynote: Leo Porter</li>
+</ul>
+<h4 id="ukicer-2020">UKICER 2020</h4>
+<ul>
+<li><a href="https://www.gla.ac.uk">University of Glasgow</a></li>
+<li>General and Programme Chairs: <a href="">Quintin Cutts</a> and <a href="https://www.josephmaguire.co.uk">Joseph Maguire</a></li>
+<li>Conference website: <a href="https://www.ukicer.com/2020/">www.ukicer.com/2020/</a></li>
+<li>Theme: Gathering Ideas Together</li>
+<li>Keynote: Steve Draper</li>
+</ul>
+<h4 id="ukicer-2019">UKICER 2019</h4>
+<ul>
+<li><a href="https://www.kent.ac.uk">University of Kent</a></li>
+<li>General Chair: <a href="">Janet Carter</a></li>
+<li>Programme Chair(s): <a href="">Neil Brown</a> and <a href="">Brett Becker</a></li>
+<li>Conference website: <a href="https://www.ukicer.com/2019/">www.ukicer.com/2019/</a></li>
+<li>Theme: N/A</li>
+<li>Keynote: N/A</li>
+</ul></body>
+      </html>
