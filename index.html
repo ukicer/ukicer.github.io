@@ -18,6 +18,29 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
+    <style>
+        /* Fix dropdown highlighting issue */
+        .dropdown-item:active,
+        .dropdown-item:focus,
+        .dropdown-item:hover {
+            background-color: #f8f9fa !important;
+            color: #212529 !important;
+        }
+        
+        .dropdown-item.active,
+        .dropdown-item:active {
+            background-color: #f8f9fa !important;
+            color: #212529 !important;
+        }
+        
+        /* Remove Bootstrap's default active state */
+        .dropdown-menu .dropdown-item.active,
+        .dropdown-menu .dropdown-item:active {
+            background-color: #f8f9fa !important;
+            color: #212529 !important;
+        }
+    </style>
+
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -95,6 +118,13 @@
                                     <a class="dropdown-item js-scroll-trigger" href="#invited">Keynotes</a>
                                     <a class="dropdown-item js-scroll-trigger" href="#collocated-events">Pre-conference Workshops</a>
                                     <a class="dropdown-item js-scroll-trigger" href="#workshops">Workshops</a>
+                                    <a class="dropdown-item js-scroll-trigger" href="#paper-session-1">Paper Session 1: Generative AI (1)</a>
+                                    <a class="dropdown-item js-scroll-trigger" href="#paper-session-2">Paper Session 2: Human Factors</a>
+                                    <a class="dropdown-item js-scroll-trigger" href="#paper-session-3">Paper Session 3: School Education</a>
+                                    <a class="dropdown-item js-scroll-trigger" href="#paper-session-4">Paper Session 4: Generative AI (2)</a>
+                                    <a class="dropdown-item js-scroll-trigger" href="#posters-session-1">Poster Presentations 1</a>
+                                    <a class="dropdown-item js-scroll-trigger" href="#posters-session-2">Poster Presentations 2</a>
+                                    <a class="dropdown-item js-scroll-trigger" href="#doctoral-consortium">Doctoral Consortium</a>
                                     <a class="dropdown-item js-scroll-trigger" href="#rippa">RIPPAs</a>
                                 </div>
                             </li>
@@ -374,7 +404,7 @@
             <td>Lunch</td>
             <td>Atrium</td>
         </tr>
-        <tr>
+        <tr id="paper-session-1">
             <td>13:45</td>
             <td><strong>Paper Session 1: Generative AI in Computing Education (1)</strong><br>
                 • That's Not the Feedback I Need! - Student Engagement with GenAI Feedback in the Tutor<br><em>Kai Sven Jacobs, Maurice Kempf and Natalie Kiesler</em><br>
@@ -382,7 +412,7 @@
                 • Adaptive Learning Curve Analytics with LLM-KC Identifiers for Knowledge Component Refinement<br><em>Jing Fan, Tsvetomila Mihaylova, Bita Akram, Narges Norouzi, Peter Brusilovsky, Arto Hellas and Juho Leinonen</em></td>
             <td>G07</td>
         </tr>
-        <tr>
+        <tr id="doctoral-consortium">
             <td>15:00</td>
             <td><strong>DC presentations</strong><br>
                 • Exploring the Role of Educational Experiences in Shaping Post-Primary Students' Decisions to Pursue 3rd Level Computing in Ireland: A Longitudinal Ph.D Study<br><em>Miriam Harte</em><br>
@@ -402,7 +432,7 @@
             <td><strong>Use of Generative AI in Research</strong><br><em>Sue Sentance, Quintin Cutts</em></td>
             <td>G07</td>
         </tr>
-        <tr>
+        <tr id="paper-session-2">
             <td>16:15</td>
             <td><strong>Paper Session 2: Human Factors</strong><br>
                 • Interest over Meaning, Enjoyment over Self-efficacy? - What Predicts Thriving Best in CS1<br><em>Hannu Pesonen and Arto Hellas</em><br>
@@ -430,7 +460,7 @@
             <td>Registration</td>
             <td>Atrium</td>
         </tr>
-        <tr>
+        <tr id="paper-session-3">
             <td>09:00</td>
             <td><strong>Paper Session 3: School Education</strong><br>
                 • Supporting Highly Able Programmers in Secondary Schools in England<br><em>Peter E J Kemp and Alex Hadwen-Bennett</em><br>
@@ -438,7 +468,7 @@
                 • Formal school computing education won't work until we understand the problem<br><em>Nicola Looker and Quintin Cutts</em></td>
             <td>G07</td>
         </tr>
-        <tr>
+        <tr id="posters-session-1">
             <td>10:15</td>
             <td><strong>Poster presentations 1</strong><br>
                 • Expert Evaluation of a VR Tool for Learning Computer Graphics<br><em>Maha Alobaid and Michael Manzke</em><br>
@@ -456,14 +486,14 @@
             <td>Coffee & posters</td>
             <td>Atrium</td>
         </tr>
-        <tr>
+        <tr id="paper-session-4">
             <td>11:00</td>
             <td><strong>Paper Session 4: Generative AI in Computing Education (2)</strong><br>
                 • A Scoping Review of Student and Educator Engagement with Large Language Models in Introductory Programming Education<br><em>Kehinde Aruleba, Solomon Sunday Oyelere, George Rabeshi Obaido and Ismaila Temitayo Sanusi</em><br>
                 • Student Use and Teacher Practice: A Scoping Review of Generative AI in Computing Education Using PICRAT<br><em>Carrie Anne Philbin and Sue Sentance</em></td>
             <td>G07</td>
         </tr>
-        <tr>
+        <tr id="posters-session-2">
             <td>11:50</td>
             <td><strong>Poster presentations 2</strong><br>
                 • Advancing Assessment Practices in CS Education through AI-Generated Visual Test Case<br><em>Mohamed Elawady</em><br>
