@@ -56,6 +56,12 @@ nav {
     min-height: 50px;
 }
 
+/* Sets the style for the navbar link of the selected page */
+#mainNav .navbar-nav .nav-link.active,
+#mainNav .navbar-nav .nav-link[aria-current="page"] {
+    color: #ffffff;
+}
+
 header {
     margin-top: 50px;
     background-image: 
