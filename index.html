@@ -16,30 +16,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <style>
-        /* Fix dropdown highlighting issue */
-        .dropdown-item:active,
-        .dropdown-item:focus,
-        .dropdown-item:hover {
-            background-color: #f8f9fa !important;
-            color: #212529 !important;
-        }
-        
-        .dropdown-item.active,
-        .dropdown-item:active {
-            background-color: #f8f9fa !important;
-            color: #212529 !important;
-        }
-        
-        /* Remove Bootstrap's default active state */
-        .dropdown-menu .dropdown-item.active,
-        .dropdown-menu .dropdown-item:active {
-            background-color: #f8f9fa !important;
-            color: #212529 !important;
-        }
-    </style>
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170527242-1"></script>
@@ -54,68 +31,32 @@
         gtag('config', 'UA-170527242-1');
     </script>
 
+    <!-- Load navbar -->
+    <script src="js/load-navbar.js"></script>
+    <script src="js/load-footer.js"></script>
+    
 </head>
 
 <body id="page-top">
-    <!-- navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">UKICER 2026</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+    <!-- navbar html is in pages/nav.html, which is loaded using js/load-navbar.js -->
+    
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownArchive" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Archive
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownArchive">
-                            <a class="dropdown-item" href="2025/index.html">UKICER 2025</a>
-                            <a class="dropdown-item" href="2024/index.html">UKICER 2024</a>
-                            <a class="dropdown-item" href="2023/index.html">UKICER 2023</a>
-                            <a class="dropdown-item" href="2022/index.html">UKICER 2022</a>
-                            <a class="dropdown-item" href="2021/index.html">UKICER 2021</a>
-                            <a class="dropdown-item" href="2020/index.html">UKICER 2020</a>
-                            <a class="dropdown-item" href="2019/index.html">UKICER 2019</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <header class="bg-primary text-white" style="background-color:white !important">
+    <header class="bg-primary text-white" style="background-color:white !important"> <!--TODO: Make cleaner-->
     </header>
 
     <!-- welcome -->
     <section id="welcome" class="light">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
+            <h1>UKICER 2026</h1>
 
-                    <h1>UKICER 2026</h1>
+            <p class="lead">
+                The UK and Ireland Computing Education Research (UKICER) conference, of the two SIGCSE chapters for UK and Ireland (<a href="https://uki-sigcse.acm.org/">uki-sigcse.acm.org</a> and <a href="https://sigcseire.acm.org/">sigcseire.acm.org/</a>), is a leading forum for researchers and practitioners to meet and share advances in computer science education.
+            </p>
+            <p>We are a diverse and inclusive community bringing together researchers, academics, industry practitioners and teachers from across the UK and Ireland as well as from the rest of Europe and the wider world.</p>
 
-                    <p class="lead">
-                        The UK and Ireland Computing Education Research (UKICER) conference, of the two SIGCSE chapters for UK and Ireland (<a href="https://uki-sigcse.acm.org/">uki-sigcse.acm.org</a> and <a href="https://sigcseire.acm.org/">sigcseire.acm.org/</a>), is a leading forum for researchers and practitioners to meet and share advances in computer science education.
-                    </p>
-                    <p>We are a diverse and inclusive community bringing together researchers, academics, industry practitioners and teachers from across the UK and Ireland as well as from the rest of Europe and the wider world.</p>
-
-                    <p>More details about the conference will be added soon.</p>
-                    
-                </div>
-            </div>
+            <p>More details about the conference will be added soon.</p>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; United Kingdom and Ireland Computing Education Research (UKICER) Conference <!-- - <a href="https://twitter.com/ukicer2023">@ukicer2023</a> --> <!-- - <a href="mailto:hello@ukicer.com">hello@ukicer.com</a> --></p>
-        </div>
-        <!-- /.container -->
-    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
