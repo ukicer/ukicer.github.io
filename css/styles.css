@@ -1,0 +1,54 @@
+:root {
+    --rpcerc-dark-blue: #007bff;
+    --rpcerc-light-blue: #007bff;
+    --rpcerc-orange: #007bff;
+    --rpcerc-purple: #007bff;
+    --rpcerc-yellow: #007bff;
+}
+
+/* Fix dropdown highlighting issue */
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+}
+
+/* Remove Bootstrap's default active state */
+.dropdown-menu .dropdown-item.active,
+.dropdown-menu .dropdown-item:active {
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+}
+
+.navbar-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 2.5%;
+    background-image: 
+    url("../images/2026-banner.png");
+    background-size: 100%;
+    background-repeat: no-repeat, repeat;
+    background-position: center, center;
+}
+
+footer {
+    padding: 2% 0;
+}
+
+section {
+    padding: 2% 0;
+}
