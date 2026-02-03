@@ -6,6 +6,12 @@
     --rpcerc-yellow: #007bff;
 }
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* Fix dropdown highlighting issue */
 .dropdown-item:active,
 .dropdown-item:focus,
@@ -27,6 +33,10 @@
     color: #212529 !important;
 }
 
+.main-content {
+    padding: 1.5% 5%;
+}
+
 .navbar-div {
     display: flex;
     flex-direction: row;
@@ -36,19 +46,28 @@
     width: 100%;
 }
 
+#venue-map {
+    display: block;
+    margin: 2% auto;
+    width: 90%;
+}
+
+nav {
+    min-height: 50px;
+}
+
 header {
-    margin-bottom: 2.5%;
+    margin-top: 50px;
     background-image: 
     url("../images/2026-banner.png");
-    background-size: 100%;
-    background-repeat: no-repeat, repeat;
-    background-position: center, center;
+    width: 100%;
+    aspect-ratio: 2500 / 800;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 footer {
-    padding: 2% 0;
-}
-
-section {
+    margin-top: 2.5%;
     padding: 2% 0;
 }
