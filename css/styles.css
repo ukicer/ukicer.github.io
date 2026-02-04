@@ -1,0 +1,107 @@
+:root {
+    --rpcerc-dark-blue: #007bff;
+    --rpcerc-light-blue: #007bff;
+    --rpcerc-orange: #007bff;
+    --rpcerc-purple: #007bff;
+    --rpcerc-yellow: #007bff;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fix dropdown highlighting issue */
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+}
+
+/* Remove Bootstrap's default active state */
+.dropdown-menu .dropdown-item.active,
+.dropdown-menu .dropdown-item:active {
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+}
+
+.main-content {
+    padding: 1.5% 5%;
+}
+
+.navbar-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    width: 100%;
+}
+
+.dates-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.dates-table col:first-child {
+    width: 50%;
+}
+
+.dates-table col:last-child {
+    width: 50%;
+}
+
+.rpcerc_logos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    gap: 5%;
+}
+
+.logo {
+    height: 80px;
+    margin-right: 20px;
+}
+
+#venue-map {
+    display: block;
+    margin: 2% auto;
+    width: 90%;
+}
+
+nav {
+    min-height: 50px;
+}
+
+/* Sets the style for the navbar link of the selected page */
+#mainNav .navbar-nav .nav-link.active,
+#mainNav .navbar-nav .nav-link[aria-current="page"] {
+    color: #ffffff;
+}
+
+header {
+    margin-top: 50px;
+    background-image: 
+    url("../images/2026-banner.png");
+    width: 100%;
+    aspect-ratio: 2500 / 800;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    margin-top: 2.5%;
+    padding: 2% 0;
+}
+
+
