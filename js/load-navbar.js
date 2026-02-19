@@ -1,6 +1,6 @@
 //Sets the current page's link in the navbar to white
 const setActiveNavLink = () => {
-    const currentPath = window.location.pathname === '/' ? '/index.html' : window.location.pathname;
+    const currentPath = window.location.pathname === '/' ? 'index.html' : window.location.pathname;
     const navLinks = document.querySelectorAll('#mainNav a.nav-link');
 
     navLinks.forEach(link => {
