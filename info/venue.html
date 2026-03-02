@@ -16,6 +16,16 @@
     <!-- Custom styles for this template -->
     <link href="../css/styles.css" rel="stylesheet">
 
+    <!--Leaflet - the library used for the display of the interactive map-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+    <link href="../css/interactive-map-styles.css" rel="stylesheet">
+    <script src="../js/display-interactive-map.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170527242-1"></script>
     <script>
@@ -50,7 +60,7 @@
 
         <p>The conference location is the West Hub building (JJ Thomson Ave, Cambridge CB3 0US), which is directly opposite the Department of Computer Science and Technology building, and a 30-minute walk from the city centre.</p>
 
-        <img src="../images/2026-map.png" id="venue-map">
+        <div id="interactive-map"></div>
 
         <h2>Accommodation</h2>
         <p>We have arranged for a number of reserved rooms at the Hyatt Centric Cambridge, which is a 20-minute walk from West Hub. More information about how to book accommodation will be shared soon.</p>
