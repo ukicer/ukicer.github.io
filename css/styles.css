@@ -108,3 +108,12 @@ footer {
     margin-top: 1%;
     padding: 2% 0;
 }
+
+/* Media query for displaying logos on narrow devices */
+@media (max-width: 1000px) {
+    .logo-group {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
