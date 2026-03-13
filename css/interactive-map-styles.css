@@ -1,6 +1,13 @@
 #interactive-map {
     height: 400px;
     width: 80%;
-    align-self: center;
     margin-bottom: 1.5%;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 500px) {
+    #interactive-map {
+        width: 95%;
+        margin-bottom: 1.5%;
+    }
 }

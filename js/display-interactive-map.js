@@ -1,9 +1,16 @@
 //Logic for displaying the interactive once the DOM content of venue.html has loaded
 document.addEventListener('DOMContentLoaded', function() {
+
+    //Set zoom of map to be more zoomed out for smaller screens
+    var initialZoom = 13.5;
+    if (window.innerWidth < 1000) {
+        initialZoom = 13;
+    }
+
     //Initialise open street map and orient to Cambridge
     var map = L.map('interactive-map', {
-        center: [52.214, 0.112],
-        zoom: 13.5
+        center: [52.216, 0.112],
+        zoom: initialZoom
     });
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -22,15 +29,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     L.marker([52.21, 0.116]).addTo(map)
     .bindPopup('Conference dinner venue', {closeOnClick: false, autoClose: false})
-    .openPopup();
-
-
-    var circle = L.circle([52.205, 0.122], {
-        color: 'blue',
-        fillColor: 'rgba(0, 55, 255, 0.84)',
-        fillOpacity: 0.3,
-        radius: 400
-    }).addTo(map);
-    circle.bindPopup("Central Cambridge")
     .openPopup();
 });
