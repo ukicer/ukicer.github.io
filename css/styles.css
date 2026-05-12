@@ -57,6 +57,19 @@ body {
     width: 50%;
 }
 
+.registration-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.registration-table col:first-child {
+    width: 34%;
+}
+
+.registration-table col:last-child {
+    width: 34%;
+}
+
 .logos {
     display: flex;
     flex-direction: column;
