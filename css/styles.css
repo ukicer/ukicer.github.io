@@ -44,6 +44,16 @@ body {
     flex: 1 0 auto;
 }
 
+.keynote-body {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.keynote-body--image {
+    margin-left: auto;
+}
+
 .dates-table {
     table-layout: fixed;
     width: 100%;
@@ -93,6 +103,11 @@ body {
     margin-right: 20px;
 }
 
+#keynote-headshot {
+    width: 275px;
+    border-radius: 50%;
+}
+
 #venue-map {
     display: block;
     margin: 2% auto;
@@ -139,5 +154,18 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
+    }
+}
+
+/* Media query for displaying keynote body on narrow devices */
+@media (max-width: 750px) {
+    #keynote-headshot {
+        width: 225px;
+    }
+}
+
+@media (max-width: 550px) {
+    #keynote-headshot {
+        width: 175px;
     }
 }
