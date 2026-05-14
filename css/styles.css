@@ -44,6 +44,16 @@ body {
     flex: 1 0 auto;
 }
 
+.keynote-body {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.keynote-body--image {
+    margin-left: auto;
+}
+
 .dates-table {
     table-layout: fixed;
     width: 100%;
@@ -91,6 +101,11 @@ body {
 .organiser-image {
     height: 65px;
     margin-right: 20px;
+}
+
+#keynote-headshot {
+    width: 275px;
+    border-radius: 50%;
 }
 
 #venue-map {
