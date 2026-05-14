@@ -156,3 +156,16 @@ footer {
         gap: 10px;
     }
 }
+
+/* Media query for displaying keynote body on narrow devices */
+@media (max-width: 750px) {
+    #keynote-headshot {
+        width: 225px;
+    }
+}
+
+@media (max-width: 550px) {
+    #keynote-headshot {
+        width: 175px;
+    }
+}
