@@ -44,6 +44,16 @@ body {
     flex: 1 0 auto;
 }
 
+.registration-announcement-box {
+    border: 3px solid black;
+    padding: 0.65%;
+    margin-bottom: 1%;
+}
+
+.registration-announcement-box > p {
+    margin: 0;
+}
+
 .keynote-body {
     display: flex;
     flex-direction: row;
