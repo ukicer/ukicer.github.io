@@ -124,11 +124,11 @@ body {
     width: 90%;
 }
 
-h1 {
+h1, h3 {
     margin-bottom: 1%;
 }
 
-h2, h3 {
+h2 {
     margin-bottom: 0.5%;
 }
 
