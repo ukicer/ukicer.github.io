@@ -90,6 +90,11 @@ body {
     width: 34%;
 }
 
+.info-icon {
+    margin-right: 0.5%;
+    margin-bottom: 0.1%;
+}
+
 .logos {
     display: flex;
     flex-direction: column;
