@@ -90,6 +90,11 @@ body {
     width: 34%;
 }
 
+.info-icon {
+    margin-right: 0.5%;
+    margin-bottom: 0.1%;
+}
+
 .logos {
     display: flex;
     flex-direction: column;
@@ -118,10 +123,8 @@ body {
     border-radius: 50%;
 }
 
-#venue-map {
-    display: block;
-    margin: 2% auto;
-    width: 90%;
+.venue-map {
+    width: 65%;
 }
 
 h1, h3 {
@@ -165,6 +168,10 @@ footer {
         align-items: flex-start;
         gap: 10px;
     }
+
+    .venue-map {
+        width: 75%;
+    }
 }
 
 /* Media query for displaying keynote body on narrow devices */
@@ -172,10 +179,18 @@ footer {
     #keynote-headshot {
         width: 225px;
     }
+
+    .venue-map {
+        width: 90%;
+    }
 }
 
 @media (max-width: 550px) {
     #keynote-headshot {
         width: 175px;
+    }
+
+    .venue-map {
+        width: 100%;
     }
 }
